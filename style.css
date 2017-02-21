@@ -1,0 +1,125 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Abel);
+
+
+
+html {
+  font-size: 62.5%; }
+
+body {
+  color: #4c4c4c;
+  font-size: 1.4rem;
+  font-family: "Kokoro";
+  line-height: 1.6;
+  letter-spacing: 0.1em;
+  background-color: #fafdff; }
+  
+.box {
+  background-image: url("images/stone.jpg");
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (max-width: 768px) {
+  .box {
+    height: 250px;
+  }
+}
+
+
+
+
+
+.text-center {
+  text-align: center; }
+
+
+.block-center,.container, #skills i {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+
+.abel,   #works  {
+  font-family: 'Amatic SC', cursive; }
+
+.button-readmore,section h2,#skills h3 {
+  font-family: "Kokoro" }
+
+
+
+
+.button-contact {
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  border: 2px solid #4c4c4c;
+  color: #4c4c4c;
+  text-align: center;
+  display: block;
+  float: right;
+  border-radius: 4px;
+  font-size: 20px;
+  line-height: 0;
+  margin: 20px 20px 0 0; }
+  .button-contact:visited {
+    color: #4c4c4c; }
+
+
+
+
+#skills {
+  background-color: #fafdff; }
+  #skills .container {
+    display: flex;
+    flex-direction: column; }
+
+  #skills .skill-box {
+    flex: 1;
+    margin: 10px 0;
+    padding: 20px;
+    background-color:#d4d9dc;
+    border-radius: 4px;
+    box-sizing: border-box; }
+
+  #skills h3 {
+    color: #417038;
+    margin-bottom: 10px;
+    font-size: 2.4rem;}
+
+
+
+    #works .works-box a {
+      display: block;
+      position: relative; }
+      #works .works-box a .works-box-inner {
+        position: absolute;
+        height: 100%;
+        width: 100%; }
+
+        #works .works-box a .works-box-inner .button-readmore {
+          margin: auto;
+          margin-bottom: 40px;
+          text-align: center;
+          padding: 5px 0;
+          width: 220px;
+          display: block;
+          color: #FFF;
+          background-color: #417038;}
+
+
+@media (min-width: 768px) {
+
+
+
+
+
+  #skills .container {
+    flex-direction: row;
+    justify-content: space-between; }
+  #skills .skill-box {
+    margin: 0 10px; }
+
+/*# sourceMappingURL=style.css.map */
